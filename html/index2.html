@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/index.html">
+            <img class="logo-spotify" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+        </a>
+        
+    </header>
+    <div class="contenedor">
+        <div class="login">
+            <div class="tit">
+                <h2>Inicio Sesion en Spotify</h2>
+            </div>
+
+            <div class="btn-login">
+                <button onclick="login()" class="btn-sesiong"> <img class="imgGoogle" src="/images/google.png" alt="">Continuar con Google</button>
+            </div>
+
+            <div class="btn-login">
+                <button onclick="login()" class="btn-sesionf"> <img class="imgGoogle" src="/images/facebook (1).png" alt=""> Continuar con Facebook</button>
+            </div>
+
+            <div class="btn-login">
+                <button onclick="login()" class="btn-sesiona"> <img class="imgGoogle" src="/images/apple.png" alt=""> Continuar con Apple</button>
+            </div>
+
+
+
+
+            <label class="label-email" for="">Email o nombre de usuario</label>
+            <div class="email">
+                <input type="text" placeholder="Email o nombre de usuario" id="username">
+            </div>
+            <label class="label-pass" for="">Contraseña</label>
+            <div class="password">
+                <input type="password" placeholder="Contraseña" id="password">
+            </div>
+            <div class="recuerdame">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+
+                <div class="recuerdame">
+                   <p>recuerdame</p>
+                </div>
+            </div>
+            <div class="btn-login">
+                <button onclick="login()" class="btn-inicio">Iniciar Sesión</button>
+            </div>
+            
+            <div class="contra-text">
+                <a class="contra" href="">¿Has olvidado tu contraseña?</a>
+            </div>
+            <hr class="divider">
+            <div class="crear-cuenta">
+                <p>¿No tienes cuenta?</p>
+                <a href="">Registrate en Spotify</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="/js/conexion.js"></script>
+    
+</body>
+</html>
